@@ -8,10 +8,7 @@ export default function Navbar() {
  return(
     <nav className={styles.nav}>
       <div className={styles.container}>
-        <div className={styles.logo}>
-          <a href="/">Luna</a>
-        </div>
-
+          <a href="/">Luna's Portfolio</a>
         <div className={styles.links}>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>

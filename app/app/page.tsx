@@ -1,10 +1,15 @@
-import Image from "next/image";
 import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import Aboutme from "@/components/Aboutme";
 
 export default function Home() {
   return (
-      <main>
+      <>
         <Navbar />
-      </main>
+        <main>
+           <Aboutme />
+        </main>
+        <Footer />
+      </>
   );
 }
