@@ -1,5 +1,5 @@
 .aboutme {
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
     display: block;
     align-items: center;
@@ -7,18 +7,17 @@
     padding-top: 80px;
     overflow: hidden;
     background: white;
+    font-family: 'Century', serif;
 }
 
 .title {
     text-align: center;
     color: black;
     font-size: 3rem;
-    font-family: 'Century', serif;
 }
 
 .text {
     text-align: center;
     color: black;
     font-size: 1.0rem;
-    font-family: 'Century', serif;
 }
