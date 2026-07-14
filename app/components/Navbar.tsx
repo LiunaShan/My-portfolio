@@ -14,6 +14,7 @@ export default function Navbar() {
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
+        <button className={styles.button}>Language</button>
       </div>
     </nav>
  )
