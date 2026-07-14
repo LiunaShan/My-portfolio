@@ -7,7 +7,7 @@ import { Http2ServerRequest } from 'http2';
 
 export default function Aboutme() {
  return(
-  <section id ="home" className={styles.aboutme}>
+  <section id ="about" className={styles.aboutme}>
     
     <p className={styles.title}>About me</p>
     <p className={styles.text}>

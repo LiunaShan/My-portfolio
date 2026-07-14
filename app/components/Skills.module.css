@@ -1,5 +1,6 @@
-.projects {
-    padding: 40px 40px;
+.skills {
+    min-height: 100vh;
+    padding: 100px 20px 40px 40px;
     text-align: center;
     font-family: 'Century', serif;
     height: 80vh;

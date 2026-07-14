@@ -32,7 +32,7 @@ const skills = [
 export default function Skills() {
 
     return (
-        <section className={styles.projects}>
+        <section id = "skills" className={styles.skills}>
          <p className={styles.title}>Skills</p>
           <div className={styles.grid}>
            {skills.map((skill) => (
