@@ -11,7 +11,8 @@
 
 .title {
     color: black;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
     font-size: 3rem;
 }
 
@@ -69,4 +70,25 @@
     margin-bottom: 0.5rem;
     color: black;
     font-size: 1.2rem;
+}
+
+.strengths {
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.strength {
+    margin-bottom: 2rem;
+}
+
+.strength h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.strength p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: black;
 }

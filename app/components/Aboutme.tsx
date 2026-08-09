@@ -60,12 +60,25 @@ export default function Aboutme() {
     </div>
   </div>
 </div>
-  <p className={styles.title}>Strongth</p>
 
-  <p className={styles.text}>
-   problem solving
-  </p>
+<p className={styles.title}>Key Strengths</p>
+<div className={styles.strengths}>
 
+  <div className={styles.strength}>
+    <h3>Problem-solving</h3>
+    <p>Stay calm under pressure and find practical solutions.</p>
+  </div>
+
+  <div className={styles.strength}>
+    <h3>Continuous Learning</h3>
+    <p>Continuously learn new skills and adapt them to real-world situations.</p>
+  </div>
+
+  <div className={styles.strength}>
+    <h3>Adaptability</h3>
+    <p>Adapt quickly to new environments, tools, and ways of working.</p>
+  </div>
+</div>
 </section>
  )
 }

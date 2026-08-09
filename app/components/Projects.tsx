@@ -11,36 +11,20 @@ type Project = {
 
 const projects = [
   {
-    icon: "🏢",
+    image: "/images/fumrin-tokyo-4382950.jpg",
     title: "Municipal Accounting System",
     description:
-      "Developed and maintained accounting systems for municipalities.",
+      "Professional experience in developing and maintaining accounting systems for municipalities.",
     details:
-      "details",
+      "Software Engineer | 2022–2026\n\nResponsibilities: Development, testing, maintenance, and SQL-based data handling.\n\nTechnologies: COBOL, SQL, JavaScript, VBA, C.",
   },
   {
-    icon: "💻",
-    title: "Todo Application",
+    image: "/images/fumrin-tokyo-4382950.jpg",
+    title: "My portfolio",
     description:
-      "Built a full-stack Todo application using Django and React.",
+      "Designed and developed a personal portfolio website to showcase my experience and skills.",
     details:
-      "details",
-  },
-  {
-    icon: "🏢",
-    title: "Municipal Accounting System2",
-    description:
-      "Developed and maintained accounting systems for municipalities.",
-    details:
-      "details",
-  },
-  {
-    icon: "💻",
-    title: "Todo Application3",
-    description:
-      "Built a full-stack Todo application using Django and React.",
-    details:
-      "details",
+      "Designed and developed this portfolio using Next.js and React.\n\nFocus: Component-based development, responsive design, interactive UI, and personal branding.\n\nTechnologies: Next.js, React, TypeScript, CSS.",
   }
 ];
 
@@ -53,7 +37,13 @@ const [selectedProject, setSelectedProject] = useState<Project | null>(null);
           <div className={styles.grid}>
            {projects.map((project) => (
             <div className={styles.card} key={project.title} onClick={() => setSelectedProject(project)}>
-              <div className={styles.icon}>{project.icon}</div>
+            <div className={styles.imageWrapper}>
+            <img
+              src={project.image}
+              alt={project.title}
+              className={styles.image}
+            />
+            </div>
                <h3>{project.title}</h3>
                <p>{project.description}</p>
            </div>
