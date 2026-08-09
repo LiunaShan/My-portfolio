@@ -22,7 +22,6 @@
     line-height: 1.8;
     margin-top: 9rem;
     margin-bottom: 5rem;
-    bottom: 40px;
 }
 
 .timeline {
@@ -61,7 +60,6 @@
 
 .year {
     font-weight: bold;
-
     margin-bottom: 0.5rem;
     color: black;
 }
@@ -91,4 +89,83 @@
     font-size: 1.1rem;
     line-height: 1.6;
     color: black;
+}
+
+
+/* =========================
+   Mobile
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .aboutme {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 60px 25px;
+    }
+
+    .title {
+        margin-top: 0;
+        margin-bottom: 2rem;
+        font-size: 2.2rem;
+    }
+
+    .text {
+        font-size: 1rem;
+        line-height: 1.8;
+        margin-top: 0;
+        margin-bottom: 3rem;
+       }
+
+   .timeline {
+       margin-top: 2rem;
+       padding-left: 40px;
+   }
+
+   .timeline::before {
+       left: 3px;
+       bottom: 20px;
+       width: 2px;
+   }
+
+   .item {
+       margin-bottom: 2.5rem;
+       font-size: 1rem;
+   }
+
+   .item::before {
+       width: 10px;
+       height: 10px;
+       left: -41px;
+       top: 6px;
+   }
+
+    .year {
+        margin-bottom: 0.4rem;
+    }
+
+    .content h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .strengths {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .strength {
+        margin-bottom: 1.8rem;
+    }
+
+    .strength h3 {
+        font-size: 1.15rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .strength p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
 }

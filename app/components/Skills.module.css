@@ -46,3 +46,33 @@
     text-align: left;
 }
 
+/* =========================
+   Mobile
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .skills {
+        padding: 60px 25px;
+        min-height: auto;
+    }
+
+    .title {
+        margin-top: 0;
+        margin-bottom: 2.5rem;
+        font-size: 2.2rem;
+    }
+
+    .grid {
+        gap: 10px;
+    }
+
+    .card {
+        padding: 10px 17px;
+        border-radius: 25px;
+    }
+
+    .card h3 {
+        font-size: 1rem;
+    }
+}

@@ -32,7 +32,9 @@ export default function Skills() {
          <p className={styles.title}>Skills</p>
           <div className={styles.grid}>
            {skills.map((skill) => (
-            <div className={`${styles.card} ${styles[skill.category]}`}>
+            <div key={skill.title}
+              className={`${styles.card} ${styles[skill.category]}`}
+            >
              <h3>{skill.title}</h3>
             </div>
           ))}
