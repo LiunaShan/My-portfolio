@@ -12,19 +12,19 @@ type Project = {
 const projects = [
   {
     image: "/images/fumrin-tokyo-4382950.jpg",
-    title: "Municipal Accounting System",
+    title: "Financial Accounting System",
     description:
       "Professional experience in developing and maintaining accounting systems for municipalities.",
     details:
-      "Software Engineer | 2022–2026\n\nResponsibilities: Development, testing, maintenance, and SQL-based data handling.\n\nTechnologies: COBOL, SQL, JavaScript, VBA, C.",
+      "Software Engineer | 2022–2026\nResponsibilities: Development, testing, maintenance, and SQL-based data handling.\nTechnologies: COBOL, SQL, JavaScript, VBA, C.",
   },
   {
-    image: "/images/fumrin-tokyo-4382950.jpg",
+    image: "/images/mohamed_hassan-programmer-3607627.svg",
     title: "My portfolio",
     description:
       "Designed and developed a personal portfolio website to showcase my experience and skills.",
-    details:
-      "Designed and developed this portfolio using Next.js and React.\n\nFocus: Component-based development, responsive design, interactive UI, and personal branding.\n\nTechnologies: Next.js, React, TypeScript, CSS.",
+  details:
+    "Designed and developed this portfolio using Next.js and React.\nFocus: Component-based development, responsive design, interactive UI, and personal branding.\nTechnologies: Next.js, React, TypeScript, CSS.",
   }
 ];
 

@@ -3,7 +3,7 @@
     min-height: 100vh;
     font-family: 'Century', serif;
     color: black;
-    background: #f3f3f3;
+    background: #fafaf8;
 }
 
 .title {
@@ -24,7 +24,7 @@
     background: white;
     border: 1px solid #d8d8d5;
     padding: 35px;
-    min-height: 220px;
+    min-height: 500px;
     cursor: pointer;
     transition: all 0.3s ease;
     text-align: left;
@@ -53,21 +53,29 @@
     position: fixed;
     padding: 50px;
     width: min(800px, 85%);
-    max-height: 80vh;
+    height: auto;
     overflow-y: auto;
     border-radius: 0;
-    border: 1px solid black;
+    border: 1px solid #d8d8d5;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal p {
+    white-space: pre-line;
+    line-height: 1.8;
 }
 
 .button {
     margin-top: 30px;
+    margin-left: auto;
     padding: 10px 25px;
     background: black;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
     font-family: 'Century', serif;
-    transition: 0.3s ease;
 }
 
 .button:hover {
@@ -78,7 +86,7 @@
 
 .imageWrapper {
     width: 100%;
-    height: 180px;
+    height: 260px;
     overflow: hidden;
     margin-bottom: 2rem;
 }

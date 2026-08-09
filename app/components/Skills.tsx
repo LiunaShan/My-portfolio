@@ -3,30 +3,26 @@ import React, { useState, useEffect } from 'react';
 import styles from "./Skills.module.css";
 
 const skills = [
-  {
-    icon: "🏢",
-    title: "Municipal Accounting System",
-  },
-  {
-    icon: "💻",
-    title: "Todo Application",
-  },
-  {
-    icon: "🏢",
-    title: "Municipal Accounting System2",
-  },
-  {
-    icon: "💻",
-    title: "Todo Application3",
-  },
-    {
-    icon: "💻",
-    title: "Todo Application4",
-  },
-    {
-    icon: "💻",
-    title: "Todo Application5",
-  }
+  { title: "#COBOL", category: "technical" },
+  { title: "#SQL", category: "technical" },
+  { title: "#JavaScript", category: "technical" },
+  { title: "#React", category: "technical" },
+  { title: "#Python", category: "technical" },
+  { title: "#HTML", category: "technical" },
+  { title: "#CSS", category: "technical" },
+  { title: "#VBA", category: "technical" },
+
+  { title: "#Problem-solving", category: "soft" },
+  { title: "#Continuous-learning", category: "soft" },
+  { title: "#Adaptability", category: "soft" },
+
+  { title: "#Git", category: "tools" },
+  { title: "#Docker", category: "tools" },
+
+  { title: "#Japanese", category: "language" },
+  { title: "#English", category: "language" },
+  { title: "#Estonian", category: "language" },
+  { title: "#Chinese", category: "language" },
 ];
 
 export default function Skills() {
@@ -36,10 +32,9 @@ export default function Skills() {
          <p className={styles.title}>Skills</p>
           <div className={styles.grid}>
            {skills.map((skill) => (
-            <div className={styles.card} key={skill.title}>
-              <div className={styles.icon}>{skill.icon}</div>
-               <h3>{skill.title}</h3>
-           </div>
+            <div className={`${styles.card} ${styles[skill.category]}`}>
+             <h3>{skill.title}</h3>
+            </div>
           ))}
          </div>
          </section>
