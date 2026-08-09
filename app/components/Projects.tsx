@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import styles from "./Projects.module.css";
 
 type Project = {
-  icon: string;
+  image: string;
   title: string;
   description: string;
   details: string;
