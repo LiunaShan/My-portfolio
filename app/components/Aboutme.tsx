@@ -79,7 +79,7 @@ export default function Aboutme() {
     <h3>Adaptability</h3>
     <p>Adapt quickly to new environments, tools, and ways of working.</p>
   </div>
-</div>
-</section>*/}
+</div>*/}
+</section>
  )
 }
