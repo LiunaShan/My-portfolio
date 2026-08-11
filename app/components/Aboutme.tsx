@@ -62,7 +62,7 @@ export default function Aboutme() {
   </div>
 </div>
 
-<p className={styles.title}>Key Strengths</p>
+{/*<p className={styles.title}>Key Strengths</p>
 <div className={styles.strengths}>
 
   <div className={styles.strength}>
@@ -80,6 +80,6 @@ export default function Aboutme() {
     <p>Adapt quickly to new environments, tools, and ways of working.</p>
   </div>
 </div>
-</section>
+</section>*/}
  )
 }
