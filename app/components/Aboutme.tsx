@@ -11,11 +11,12 @@ export default function Aboutme() {
   <p className={styles.title}>About me</p>
 
   <p className={styles.text}>
-    I'm a software engineer from Japan passionate about technology, languages.
-    <br />
-    After four years in enterprise system development,
-    <br />
-    I'm now building an international career in Estonia.
+    I'm a software engineer from Japan with four years of experience in enterprise system development.
+    <br></br>
+    <br></br>I worked on a large-scale financial accounting system used by approximately 20,000 users and supporting services affecting 13 million residents in Tokyo. 
+    <br></br>
+    <br></br>Now based in Estonia, I'm building an international career while expanding my technical skills and working across different cultures.
+    <br></br>
   </p>
   <p className={styles.title}>Background</p>
 
