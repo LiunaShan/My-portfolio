@@ -30,8 +30,8 @@ export default function Navbar() {
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="#projects" onClick={closeMenu}>Projects</a>
           <a href="#skills" onClick={closeMenu}>Skills</a>
-          <a href="#contact" onClick={closeMenu}>Contact</a>
-          <button className={styles.button}>Language</button>
+          {/*<a href="#contact" onClick={closeMenu}>Contact</a>
+          <button className={styles.button}>Language</button>*/}
         </div>
 
         <button
