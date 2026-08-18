@@ -1,6 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import styles from './Navbar.module.css';
+import Link from 'next/link';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +31,7 @@ export default function Navbar() {
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="#projects" onClick={closeMenu}>Projects</a>
           <a href="#skills" onClick={closeMenu}>Skills</a>
+          <a href="https://jaapanlasepaevik.wordpress.com" target="_blank">Blog</a>
           {/*<a href="#contact" onClick={closeMenu}>Contact</a>
           <button className={styles.button}>Language</button>*/}
         </div>
