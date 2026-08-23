@@ -30,6 +30,7 @@ export default function Navbar() {
         <div className={`${styles.links} ${isOpen ? styles.linksOpen : ''}`}>
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="#projects" onClick={closeMenu}>Projects</a>
+          <a href="/case-studies" onClick={closeMenu}>Case studies</a>
           <a href="#skills" onClick={closeMenu}>Skills</a>
           <a href="https://jaapanlasepaevik.wordpress.com" target="_blank">Blog</a>
           {/*<a href="#contact" onClick={closeMenu}>Contact</a>
