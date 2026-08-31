@@ -1,0 +1,25 @@
+:global(body) {
+  background-color: aliceblue;
+}
+
+.caseStudies {
+  margin-top: 50px;
+  margin-left:30px;
+
+  h1 {
+    font-size: 23px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    font-size: 18px;
+    display: block;
+    margin-top: 5px;
+    margin-left: 55px;
+    color: blue;
+    text-decoration: underline;
+  }
+}
